@@ -1,0 +1,27 @@
+.header-area{
+    display: grid;
+    /* grid-template-columns: (2, 1fr); */
+    /* grid-template-columns: repeat(auto-fill, 186px); */
+
+}
+.link {
+    color: #382b2b;
+    padding: 10px 20px;
+    margin-left: 13px;
+    text-decoration: none;
+    font-size: 21px;
+    text-transform: initial;
+    background: orange;
+    font-weight: 700;
+}
+nav {
+    background: black;
+    height: 69px;
+    padding-top: 19px;
+    text-align: right;
+    padding-right: 30px;
+}
+.header{
+    justify-content: space-around;
+    background-color: black;
+}

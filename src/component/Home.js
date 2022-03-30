@@ -19,10 +19,10 @@ const Home = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-12'>
-                <h3 className='text-capitalize fs-3 fw-3 text-primary my-3'>this is Home components.</h3>
-                <input className='w-80 input rounded-3' onChange={searchFood} type="text" input="" id="" ></input>
+                {/* <h3 className='text-capitalize fs-3 fw-3 text-primary my-3'>this is Home components.</h3> */}
+                <input className='w-80 input rounded-3 my-3' onChange={searchFood} type="text" input="" id="" ></input>
                 <br></br>
-                <h3>Result found: {meals.length}</h3>
+                <h3 className='fs-5  text-dark'>Result found: {meals.length}</h3>
            
               <div className='row text-align-center meal-details'>
               {
