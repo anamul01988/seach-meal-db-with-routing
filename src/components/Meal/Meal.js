@@ -2,6 +2,7 @@ import React from 'react';
 import './Meal.css';
 
 const Meal = (props) => {
+    console.log(props)
     const { strMeal, strInstructions, strMealThumb } = props.meal;
     const { handleAddToOrder, meal } = props;
     return (

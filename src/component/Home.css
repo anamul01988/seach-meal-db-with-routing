@@ -1,0 +1,9 @@
+.meal-details{
+    display : flex;
+    justify-content: center;
+}
+.input {
+    border: 2px solid #5f4d4d;
+    width: 400px;
+
+}
